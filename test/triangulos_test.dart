@@ -24,4 +24,8 @@ expect( ClasificarTriangulo(5, 6, 0, ),0);
   test('triangulo isoseles a=c', () {
     expect(ClasificarTriangulo(3, 4, 3), 2);
   });
+
+ test('triangulo escaleno', () {
+    expect(ClasificarTriangulo(10, 11, 12), 3);
+  });  
 }
