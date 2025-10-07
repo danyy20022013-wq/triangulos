@@ -21,5 +21,7 @@ expect( ClasificarTriangulo(5, 6, 0, ),0);
     expect(ClasificarTriangulo(4, 3, 3), 2);
   });
   
-  
+  test('triangulo isoseles a=c', () {
+    expect(ClasificarTriangulo(3, 4, 3), 2);
+  });
 }
