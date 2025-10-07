@@ -12,7 +12,9 @@
     if( (a==b || a==c || b==c)){
         return 2;
       }
-    return 3;
+    else {
+      return 3;
+    }
   }
 
 
