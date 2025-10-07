@@ -41,5 +41,7 @@ expect( ClasificarTriangulo(5, 6, 0, ),0);
     expect(ClasificarTriangulo(1.5, 2.5, 12), 4);
   }); 
 
-   
+    test('triangulo equilatero', () {
+    expect(ClasificarTriangulo(2.5, 2.5, 2.5), 1);
+  }); 
 }
