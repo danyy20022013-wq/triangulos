@@ -1,5 +1,5 @@
 
-  int ClasificarTriangulo (int a, int b, int c){
+  num ClasificarTriangulo (num a, num b, num c){
     if (a <=0 || b<=0 || c<=0){
       return 0 ;
     }

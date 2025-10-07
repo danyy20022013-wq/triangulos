@@ -36,4 +36,10 @@ expect( ClasificarTriangulo(5, 6, 0, ),0);
    test('triangulo isoseles con numeros grandes', () {
     expect(ClasificarTriangulo(3763498734829748122, 4989899989898989898, 3763498734829748122), 2);
   });
+
+   test('desigualdad triangular con decimales', () {
+    expect(ClasificarTriangulo(1.5, 2.5, 12), 4);
+  }); 
+
+   
 }
