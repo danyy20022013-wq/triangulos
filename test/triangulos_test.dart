@@ -27,5 +27,9 @@ expect( ClasificarTriangulo(5, 6, 0, ),0);
 
  test('triangulo escaleno', () {
     expect(ClasificarTriangulo(10, 11, 12), 3);
-  });  
+  }); 
+
+    test('desigualdad triangular', () {
+    expect(ClasificarTriangulo(1, 2, 12), 4);
+  }); 
 }
